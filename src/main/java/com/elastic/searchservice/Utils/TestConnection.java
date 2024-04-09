@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.EscapedErrors;
 
-@Service
+
 public class TestConnection {
     private static final Logger log= LoggerFactory.getLogger(TestConnection.class);
     @Value("${serverUrl}")

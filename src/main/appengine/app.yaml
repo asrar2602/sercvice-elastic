@@ -1,0 +1,6 @@
+runtime: java # or another supported runtime
+entrypoint: java -Xmx64m -jar SearchServiceApplication.jar
+env: flex
+handlers:
+  - url: /.*
+    script: auto
